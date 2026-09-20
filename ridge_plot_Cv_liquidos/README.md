@@ -32,7 +32,7 @@ com o strength da desordem.
 Consideramos o seguinte funcional de partição para modelar o líquido simples
 sem viscosidade:
 
-$$Z(h) = \int [d\varphi]\, \exp\{ -\int_0^{\hbar \beta} d\tau \int_V d\mathbf{x} [ \frac{1}{2}\varphi(\tau,\mathbf{x}) ( -\frac{1}{u^2}\frac{\partial^2}{\partial \tau^2} -\Delta ) \varphi(\tau,\mathbf{x}) - h(\tau,\mathbf{x})\varphi(\tau,\mathbf{x}) ] \}$$
+$$Z(h) = \int [d\varphi] \exp \left(-\int_0^{\hbar \beta} d\tau \int_V d\mathbf{x} [ \frac{1}{2}\varphi(\tau,\mathbf{x}) ( -\frac{1}{u^2}\frac{\partial^2}{\partial \tau^2} -\Delta ) \varphi(\tau,\mathbf{x}) - h(\tau,\mathbf{x})\varphi(\tau,\mathbf{x}) ] \right)$$
 
 sendo $h(\tau, \x)$ um campo de desordem que modela estatisticamente os processos 
 interatômicos do líquido. Tais processos estão em uma escala de energia para além 
