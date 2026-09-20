@@ -25,7 +25,7 @@ Portanto, através do método do ridge plot, este projeto irá calcular
 diferentes curvas teóricas da capacidade térmica, explorando sua evolução
 com o strength da desordem.
 
-# 3) Ambientação teórica
+# 3) Fundamentação teórica
 
 # 3.a) O líquido como sistema desordenado
 
