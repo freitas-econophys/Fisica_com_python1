@@ -93,10 +93,10 @@ $$R(b) =  -\mathbb{E}\left[\int_{\frac{b Z(h)}{Z_0}}^\infty \frac{e^{-t}}{t} dt 
 Para valores suficientes grandes de $b>1$, a contribuição de $R(b)$ se torna desprezível. 
 Por meio da regularização de determinantes, podemos representar $Z_0$ e $\mathbb{E}[Z^k(h)]$
 em termos das seguintes exponenciais:
-$$Z(0) = \exp\{ V\alpha\int_0^1 dy\,y^{2}\ln[2\sinh(\frac{T_D}{2T}y)]\}$$
+$$Z(0) = \exp\{ V\alpha\int_0^1 dy y^{2}\ln[2\sinh(\frac{T_D}{2T}y)]\}$$
 
 e
-$$\mathbb{E}\left[\frac{Z(h)^k}{Z_0^k}\right] = \exp\left\{ V\alpha \int_0^1 dy\,y \left[\sqrt{y^2 + k\left(\frac{\sigma}{(2\pi^2 \alpha)^{1/3}}\right)^2} - y\right]\ln\left[2\sinh\left(\frac{T_D}{2T}y\right)\right]\right\}$$
+$$\mathbb{E}[\frac{Z(h)^k}{Z_0^k}] = \exp\{V\alpha \int_0^1 dy y [\sqrt{y^2 + k(\frac{\sigma}{(2\pi^2 \alpha)^{1/3}})^2} - y]\ln[2\sinh(\frac{T_D}{2T}y)]\}$$
 
 onde $V$ é o volume total do sistema, $\alpha$ é o inverso do volume característico (comprimento de onda de Debye ao cubo) 
 e $T_D$ é a temperatura de Debye. 
