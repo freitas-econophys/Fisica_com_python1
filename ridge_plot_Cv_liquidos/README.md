@@ -100,18 +100,7 @@ $$ \mathrm{Ei}\left(-b\frac{Z(h)}{Z_0} \right) \leq \frac{e^{-b}}{b} $$
 
 Aplicando-se a média na equação de $\mathrm{Ei}\left(-b\frac{Z(h)}{Z_0} \right)$, teremos:
 
-$$
-\mathbb{E}[\ln Z(h)]
-=\ln Z_0+
-\sum_{k=1}^{\infty}
-\frac{(-1)^{k+1} b^k}{k!k}
-\mathbb{E}\left[
-\frac{Z(h)^k}{Z_0^k}
-\right]-
-\ln b-
-\gamma-
-R(b).
-$$
+$$\mathbb{E}[\ln Z(h)] = \ln Z_0 + \sum_{k=1}^{\infty} \frac{(-1)^{k+1}b^k}{k!k}\mathbb{E}\left[\frac{Z(h)^k}{Z_0^k}\right] - \ln b - \gamma - R(b).$$
 sendo
 
 $$R(b) =  -\mathbb{E}\left[\int_{\frac{b Z(h)}{Z_0}}^\infty \frac{e^{-t}}{t} dt \right].$$
