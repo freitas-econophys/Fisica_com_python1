@@ -32,23 +32,7 @@ com o strength da desordem.
 Consideramos o seguinte funcional de partição para modelar o líquido simples
 sem viscosidade:
 
-$$
-Z(h) =
-\int [d\varphi]\,
-\exp\left\{
--\int_0^{\hbar \beta} d\tau
-\int_V d\mathbf{x}
-\left[
-\frac{1}{2}\varphi(\tau,\mathbf{x})
-\left(
--\frac{1}{u^2}\frac{\partial^2}{\partial \tau^2}
--\Delta
-\right)
-\varphi(\tau,\mathbf{x})
--h(\tau,\mathbf{x})\varphi(\tau,\mathbf{x})
-\right]
-\right\}
-$$
+$$Z(h) = \int [d\varphi]\, \exp\left\{ -\int_0^{\hbar \beta} d\tau \int_V d\mathbf{x} \left[ \frac{1}{2}\varphi(\tau,\mathbf{x}) \left( -\frac{1}{u^2}\frac{\partial^2}{\partial \tau^2} -\Delta \right) \varphi(\tau,\mathbf{x}) -h(\tau,\mathbf{x})\varphi(\tau,\mathbf{x}) \right] \right\}$$
 
 sendo $h(\tau, \x)$ um campo de desordem que modela estatisticamente os processos 
 interatômicos do líquido. Tais processos estão em uma escala de energia para além 
@@ -101,6 +85,7 @@ $$ \mathrm{Ei}\left(-b\frac{Z(h)}{Z_0} \right) \leq \frac{e^{-b}}{b} $$
 Aplicando-se a média na equação de $\mathrm{Ei}\left(-b\frac{Z(h)}{Z_0} \right)$, teremos:
 
 $$\mathbb{E}[\ln Z(h)] = \ln Z_0 + \sum_{k=1}^{\infty} \frac{(-1)^{k+1}b^k}{k!k}\mathbb{E}\left[\frac{Z(h)^k}{Z_0^k}\right] - \ln b - \gamma - R(b).$$
+
 sendo
 
 $$R(b) =  -\mathbb{E}\left[\int_{\frac{b Z(h)}{Z_0}}^\infty \frac{e^{-t}}{t} dt \right].$$
