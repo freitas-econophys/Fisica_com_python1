@@ -108,6 +108,26 @@ e $T_D$ é a temperatura de Debye.
 
 A partir da expressão teórica para a capacidade térmica isocórica $C_V(T)$, serão calculadas 
 numericamente diferentes curvas $C_V(T; \sigma)$ para valores distintos da intensidade 
-(strength) da desordem $\sigma$. Assim, as curvas obtidas serão organizadas e 
+(strength) da desordem $\sigma$. Por fim, as curvas serão comparadas por meio do gráfico de 
+cordilheiras (ridgeline plot). 
+
+# Q2: Análise da sensibilidade dos gaps de energia em líquidos por meio de Ternary Plots. 
+
+A partir da média $\mathbb{E}[\frac{Z(h)^k}{Z_0^k}]$, verifica-se que cada k-ésimo termo
+da série produz gaps de energia. Este detalhe faz com que a série obtida pelo método da
+função zeta distribucional seja muito similar ao resultado dos gaps observados em sistemas
+no qual ocorrem a anomalia de Schottky. No regime de baixas temperaturas, podemos associar:
+
+$$ \mathbb{E}[\frac{Z(h)^k}{Z_0^k}] = e^{-\beta(E_k - E_0)} $$
+
+onde
+
+$$ E_0 = \frac{VT_D^4}{8\pi^2} $$
+
+e 
+
+$$ E_k = 2
+
+
 representadas por meio de um ridge plot, permitindo visualizar o do comportamento da
 capacidade térmica de acordo com a mudança da intensidade da desordem.
