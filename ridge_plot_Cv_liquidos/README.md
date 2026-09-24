@@ -128,7 +128,7 @@ e
 
 $$ E_k =  \frac{VT_D^4}{8\pi^2}\left[(2+k\sigma_D^2)\sqrt{1+k\sigma_D^2}-k^2\sigma^4\ln\left(\frac{1+\sqrt{1+k\sigma_D^2}}{\sqrt{k}\sigma}\right)\right],$$
 
-onde $\sigma_D \equiv \frac{\sigma}{(2\pi^2 \alpha)^{1/3}$. Por fim, os gaps de energia em cada k-ésimo
+onde $\sigma_D \equiv \frac{\sigma}{(2\pi^2 \alpha)^{1/3}}$. Por fim, os gaps de energia em cada k-ésimo
 multipleto é dado por:
 
 $$\Delta E_k = \frac{VT_D^4}{8\pi^2}\left[(2+k\sigma_D^2)\sqrt{1+k\sigma_D^2}-a^4\ln\left(\frac{1+\sqrt{1+k\sigma_D^2}}{\sqrt{k}\sigma}\right) - 1\right] $$
