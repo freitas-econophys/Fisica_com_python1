@@ -126,8 +126,34 @@ $$ E_0 = \frac{VT_D^4}{8\pi^2} $$
 
 e 
 
-$$ E_k = 2
+$$ E_k =  \frac{VT_D^4}{8\pi^2}\left[(2+k\sigma_D^2)\sqrt{1+k\sigma_D^2}-k^2\sigma^4\ln\left(\frac{1+\sqrt{1+k\sigma_D^2}}{\sqrt{k}\sigma}\right)\right],$$
+
+onde $\sigma_D \equiv \frac{\sigma}{(2\pi^2 \alpha)^{1/3}$. Por fim, os gaps de energia em cada k-ésimo
+multipleto é dado por:
+
+$$\Delta E_k = \frac{VT_D^4}{8\pi^2}\left[(2+k\sigma_D^2)\sqrt{1+k\sigma_D^2}-a^4\ln\left(\frac{1+\sqrt{1+k\sigma_D^2}}{\sqrt{k}\sigma}\right) - 1\right] $$
+
+Tais gaps são responsáveis pela anomalia do tipo Schottky em líquidos, que são caracterizadas
+pelos picos do calor específico a baixas temperaturas. Sendo assim, vamos verificar como esses gaps
+de energia dependem da tríade dos parâmetros independentes $(\sigma, \alpha, k)$ através do
+uso do Ternary Plot. 
+
+Definindo 
+
+$$W_i = \left[\frac{x_i}{\Delta E_k} \frac{\partial \Delta E_k}{\partial x_i}\right] $$
+
+como sendo a derivação adimensionalizada do gap $\Delta E_k$ com relação ao parâmetro $x_i$, 
+onde $x_1 \equiv \sigma$, $x_2 \equiv \alpha$ e $x_3 equiv k$. Então, 
+
+$$w_i = \frac{W_i}{\sum_{j=1}^3 W_j}$$
+
+tal que
+
+$$w_1+w_2+w_3 = 1.$$
 
 
-representadas por meio de um ridge plot, permitindo visualizar o do comportamento da
-capacidade térmica de acordo com a mudança da intensidade da desordem.
+
+
+
+
+
