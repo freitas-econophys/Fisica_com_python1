@@ -4,7 +4,7 @@
 - **Autor:** Isaque Porto de Freitas
 - **Obs.:** Código desenvolvido para fins de avaliação acadêmica. Disponibilizado publicamente sob a Licença MIT para consulta educacional.
 
-# Título: Aplicação do ridge plot à capacidade térmica isocórica de líquidos simples
+# Q1: Aplicação do ridge plot à capacidade térmica isocórica de líquidos simples
 
 # 1) Objetivo:
 Este notebook implementa numericamente a capacidade térmica isocórica
